@@ -1,0 +1,43 @@
+1. justify-content: 
+	This property is used in CSS Flexbox to control how items are positioned along the main axis (horizontally in a row or vertically in a column) within a Flexbox container. It defines how the available space is distributed among the items when they don't fully occupy the container. Common values for `justify-content` include:
+
+   - `flex-start`: Items are packed at the start of the main axis.
+   - `flex-end`: Items are packed at the end of the main axis.
+   - `center`: Items are centered along the main axis.
+   - `space-between`: Items are evenly distributed with space between them.
+   - `space-around`: Items are evenly distributed with space around them.
+   - `space-evenly`: Items are evenly distributed with equal space around them.
+
+2. `align-items`: 
+	In CSS Flexbox, the `align-items` property controls how items are positioned along the cross-axis (horizontally in a column or vertically in a row) within a Flexbox container. 
+	It defines how the items are aligned within their container along the cross-axis. Common values for `align-items` include:
+
+   - `flex-start`: Items are aligned at the start of the cross-axis.
+   - `flex-end`: Items are aligned at the end of the cross-axis.
+   - `center`: Items are centered along the cross-axis.
+   - `baseline`: Items are aligned based on their baselines.
+   - `stretch`: Items are stretched to fill the container along the cross-axis.
+
+3. `gap`: 
+	The `gap` property is used in CSS Grid and CSS Flexbox layouts to set the space between grid or flex items. It defines the gap or spacing between rows and columns within a grid or between items within a Flexbox container. 
+         It's a shorthand property for `row-gap` (for rows) and `column-gap` (for columns) in grids, and for `gap` in Flexbox. 
+
+	For example, `gap: 10px;` sets a 10-pixel gap between items.
+
+4. `flex-direction`: 
+	The `flex-direction` property specifies the direction in which flex items are laid out within a Flexbox container. 
+        It defines the main axis and cross-axis for the container. Common values for `flex-direction` include:
+
+   - `row`: Items are placed in a row (from left to right by default).
+   - `row-reverse`: Items are placed in a row in reverse order (from right to left).
+   - `column`: Items are placed in a column (from top to bottom by default).
+   - `column-reverse`: Items are placed in a column in reverse order (from bottom to top).
+
+5. `flex-wrap`: 
+	In CSS Flexbox, the `flex-wrap` property controls whether flex items should wrap onto multiple lines if they don't fit within the container's width (in a row) or height (in a column). Common values for `flex-wrap` include:
+
+   - `nowrap`: Items do not wrap; they will shrink to fit.
+   - `wrap`: Items wrap onto multiple lines as needed.
+   - `wrap-reverse`: Items wrap onto multiple lines in reverse order.
+
+These properties are fundamental for controlling the layout and alignment of elements in both Flexbox and Grid layouts, making them essential tools for web designers and developers.

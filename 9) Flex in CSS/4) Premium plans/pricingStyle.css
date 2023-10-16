@@ -1,0 +1,64 @@
+.main-container{
+    display: flex;
+    column-gap: 30px;
+}
+.pricing-card{
+    width: 184px;
+    padding: 25px 28px;
+    box-shadow: 4px 3px 9px 0px;
+    border-radius: 8px;
+}
+.card__Header{
+    line-height: 4px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.card__Header p:nth-child(2) {
+    font-size: 15px;
+    margin-top: 26px;
+}
+.card__Header p:nth-child(3) {
+    font-size: 44px;
+    margin-bottom: 27px;
+}
+.card__content ul{
+    padding-left: 0px;
+    list-style-type: none;
+    list-style-position: inside;
+    font-family: 'Lato', sans-serif;
+}
+.card__content li{
+    background-image: url(./Image/Right.png);
+    background-repeat: no-repeat;
+    padding: 6px 0px 6px 40px;
+    background-position: 0 2px;
+}
+.second__card__content li{
+    background-image: url(./Image/RightBlack&white.png);
+    background-repeat: no-repeat;
+    padding: 6px 0px 6px 40px;
+    background-position: 0 2px;
+}
+.btn{
+    text-align: center;
+}
+.button{
+    padding: 10px;
+    width: 143px;
+    border-radius: 22px;
+    font-weight: bold;
+    background-color: rgb(59, 58, 58);
+    color: white;
+}
+
+.pricing-card-second{
+    width: 184px;
+    padding: 25px 28px;
+    box-shadow: 4px 3px 9px 0px;
+    border-radius: 8px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+.btn__secondcard{
+   background-color: white;
+   color: black;
+}
